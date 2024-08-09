@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#hex-display {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#change-btn {
+    background-color: #FEC849;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#hex-display, h1 {
+    color: white;
+}
+
+#change-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
