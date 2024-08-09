@@ -1,13 +1,19 @@
 body {
     background-color: #000000;
+    margin: 0px;
 }
 
 #container {
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: center;
+    background-color: #343434;
+    width: 600px;
+    padding-bottom: 30px;
+    border-radius: 20px;
 }
 
 #hex-display {
@@ -26,8 +32,30 @@ body {
     color: white;
 }
 
+h1{
+    text-align: center;
+}
+
 #change-btn:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+#wrapper {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 630px) {
+    #container {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+        padding: 20px 0px;
+    }
 }
